@@ -1,9 +1,14 @@
 body {
     margin: 0;
+    background-color: #111;
+}
+
+.isHidden {
+    display: none;
 }
 
 .container {
-    background-color: #333;
+    background-color: #222;
     padding: 1rem;
     margin-top: 1rem;
 }
@@ -17,4 +22,11 @@ body {
 
 .dragging {
     opacity: 0.5;
+}
+
+.card {
+    width: 200px;
+    border-radius: 0.5rem;
+    background-color: #333;
+    color:rgb(163, 162, 162)
 }
